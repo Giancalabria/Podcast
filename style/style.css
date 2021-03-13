@@ -310,7 +310,7 @@ a:active {
     width: 18px;
     height: 2px;
     background: black;
-    transition: all 1s;
+    transition: all 0.5s;
     border-radius: 8px;
   }
   .label-burger {
@@ -347,7 +347,7 @@ a:active {
     width: 100%;
     position: absolute;
     left: 100%;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     margin-top: 30px;
   }
 
