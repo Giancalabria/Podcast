@@ -11,6 +11,7 @@
   }  
   body {
     overflow-x: hidden;
+    max-width: 1200px;
   }
   html {
     scroll-behavior:smooth;
@@ -259,6 +260,9 @@ a:active {
  body {
    max-width: 480px;
  }
+ .visible {
+   max-width: 480px;
+ }
   .section-donde-venimos {
     display: flex;
     flex-direction: column;
@@ -401,12 +405,11 @@ a:active {
   align-items: flex-start;
   flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: flex-start;
 }
 .episodios-div-top {
   margin-top: 40px;
 }
-.episodios-div {
-  margin-top: -35px;
-}
+
 }
 
