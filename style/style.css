@@ -101,7 +101,8 @@ a {
   line-height: 24px;
   font-weight: bold;
   max-width: 345px;
-  
+  display: block;
+  margin: 16px;
 }
 .boton:hover {
   background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
@@ -213,10 +214,7 @@ a {
 .logo {
   width: 150px;
 }
-.episodios-boton {
-  display: block; 
-  margin: 16px;
-}
+
 .novedades-section {
   height: 518px;
   display: flex;
