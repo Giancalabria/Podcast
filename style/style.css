@@ -47,14 +47,18 @@ li{
   display: none;
 }
 a {
+  text-decoration: none;
+  color: black;
+}
+.anchor {
   color: black;
   text-decoration: none;
 }
-a:hover {
+.anchor:hover {
   color:  #00F3BB;
   text-decoration: line-through;
 }
-a:active {
+.anchor:active {
   color: #060A24;
   text-decoration: line-through;
 }
@@ -377,7 +381,7 @@ a:active {
     width: 100%;
     background: #0000ec;
   }
-  a, a:active, a:hover{
+  .anchor, .anchor:active, .anchor:hover{
     color: white;
     text-decoration: none;
     width: 100%;
