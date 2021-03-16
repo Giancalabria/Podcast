@@ -12,11 +12,14 @@
 
 body {
   overflow-x: hidden;
-  max-width: 1200px;
+  width: 1440px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 h1,
@@ -78,14 +81,7 @@ a {
   text-decoration: line-through;
 }
 
-.visible {
-  background-color: white;
-  opacity: 100%;
-  max-width: 1200px;
-  margin-left: 16px;
-  margin-right: 16px;
 
-}
 
 .title {
   font-size: 64px;
