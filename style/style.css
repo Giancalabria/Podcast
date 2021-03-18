@@ -443,13 +443,7 @@ a {
     margin-left: 50px;
   }
 
-  .episodios-div-top,
-  .episodios-div {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    margin-left: 30px;
-  }
+
 
   .podcast {
     width: 100%;
@@ -466,7 +460,11 @@ a {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    height: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 30px;
   }
 
 
