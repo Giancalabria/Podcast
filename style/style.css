@@ -164,6 +164,7 @@ a {
   clip-path: polygon(0 8%, 100% 0, 100% 93%, 0% 100%);
   width: 1200px;
   height: 1200px;
+ 
 }
 
 .episodios-title {
@@ -302,6 +303,7 @@ a {
 }
 
 @media screen and (max-width:480px) {
+
   body {
     max-width: 480px;
   }
@@ -442,6 +444,7 @@ a {
   }
 .episodios {
   width: 480px;
+  height: auto;
 }
   .episodios-title {
     margin-top: 150px;
@@ -467,5 +470,7 @@ a {
     margin: 0px;
     margin-left: 30px;
   }
-
+.episodios-div:last-child {
+  padding-bottom: 100px;
+}
 }
