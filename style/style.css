@@ -22,6 +22,7 @@ html {
   scroll-behavior: smooth;
   width: 100%;
 }
+
 .visible {
   overflow-x: hidden;
   position: relative;
@@ -164,7 +165,7 @@ a {
   clip-path: polygon(0 8%, 100% 0, 100% 93%, 0% 100%);
   width: 1200px;
   height: 1200px;
- 
+
 }
 
 .episodios-title {
@@ -278,9 +279,11 @@ a {
   padding-left: 36px;
   padding-right: 36px;
 }
+
 .icons:hover {
   transform: scale(2, 2);
 }
+
 .icons-div {
   display: flex;
   justify-content: flex-end;
@@ -442,10 +445,12 @@ a {
     text-decoration: none;
     width: 100%;
   }
-.episodios {
-  width: 480px;
-  height: auto;
-}
+
+  .episodios {
+    width: 480px;
+    height: auto;
+  }
+
   .episodios-title {
     margin-top: 150px;
     margin-left: 50px;
@@ -470,7 +475,8 @@ a {
     margin: 0px;
     margin-left: 30px;
   }
-.episodios-div:last-child {
-  padding-bottom: 100px;
-}
+
+  .episodios-div:last-child {
+    padding-bottom: 100px;
+  }
 }
