@@ -48,6 +48,8 @@ nav {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 ul {
@@ -202,6 +204,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .div-donde-venimos {
@@ -224,8 +228,6 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: -16px;
-  margin-right: -16px;
 }
 
 .img-inv {
@@ -242,6 +244,8 @@ a {
   margin-top: 100px;
   margin-right: 50px;
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .logo {
@@ -256,15 +260,15 @@ a {
   flex-direction: column;
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%);
-  margin-left: -32px;
-  margin-right: -32px;
+
 }
 
 .footer {
   margin: 36px;
   display: flex;
   justify-content: space-between;
-
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .icons {
