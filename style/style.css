@@ -13,8 +13,6 @@
 body {
   overflow-x: hidden;
   width: 1200px;
-  padding-left: 16px;
-  padding-right: 16px;
   margin: auto;
 }
 
@@ -162,6 +160,7 @@ a {
   clip-path: polygon(0 8%, 100% 0, 100% 93%, 0% 100%);
   width: 1200px;
   height: 1200px;
+
 }
 
 .episodios-title {
@@ -307,9 +306,6 @@ a {
     max-width: 480px;
   }
 
-  .visible {
-    max-width: 480px;
-  }
 
   .section-donde-venimos {
     display: flex;
