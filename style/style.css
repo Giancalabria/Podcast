@@ -189,7 +189,7 @@ a {
 .episodios-title {
   display: flex;
   margin-top: 186px;
-  margin-left: 200px;
+ padding-left: 200px;
 }
 
 .episodios-div-top {
@@ -241,7 +241,7 @@ a {
   max-height: 660px;
   margin-left: -60px;
   display: flex;
-  transform: translateY(-80px);
+  transform: translate(40px, -80px);
   z-index: 1;
 }
 
@@ -484,8 +484,8 @@ a {
   }
 
   .episodios-title {
-    margin-top: 150px;
-    margin-left: 50px;
+    
+    padding-left: 16px;
   }
 
   .podcast {
