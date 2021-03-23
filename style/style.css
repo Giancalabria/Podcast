@@ -71,6 +71,7 @@ li {
 }
 
 a {
+  font-family: 'IBM Plex Mono', monospace;
   text-decoration: none;
   color: black;
   display: flex;
