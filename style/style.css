@@ -27,9 +27,11 @@ html {
   position: relative;
   width: 100%;
 }
+
 h1 {
   font-weight: 600;
 }
+
 h1,
 h2,
 h3 {
@@ -81,9 +83,11 @@ a {
   height: 100%;
   align-items: center;
 }
+
 .anchor-boton {
   justify-content: center;
 }
+
 .anchor {
   color: black;
   text-decoration: none;
@@ -124,9 +128,11 @@ a {
 .description {
   max-width: 628px;
 }
+
 .description2 {
   display: none;
 }
+
 .boton {
   font-family: 'IBM Plex Mono', monospace;
   background-color: #00F3BB;
@@ -189,7 +195,7 @@ a {
 .episodios-title {
   display: flex;
   margin-top: 186px;
- padding-left: 200px;
+  padding-left: 200px;
 }
 
 .episodios-div-top {
@@ -252,17 +258,21 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .title-invitados {
   padding-left: 200px;
 }
+
 .img-inv {
   width: 33.33%;
 }
+
 .logo-section {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 64px;
 }
+
 .logos-contenedor {
   display: flex;
   justify-content: space-around;
@@ -336,18 +346,23 @@ a {
   body {
     max-width: 480px;
   }
+
   .article {
     padding-left: 16px;
   }
+
   .nav {
     padding: 16px;
   }
+
   .description {
     display: none;
   }
+
   .description2 {
     display: block;
   }
+
   .section-donde-venimos {
     display: flex;
     flex-direction: column;
@@ -508,9 +523,11 @@ a {
   .episodios-div:last-child {
     padding-bottom: 150px;
   }
+
   .title-invitados {
     padding: 16px;
   }
+
   .logo-section {
     padding: 16px;
   }
