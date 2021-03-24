@@ -488,9 +488,9 @@ a {
   }
 
   .podcast {
-    width: 460px;
+    width: 100%;
     height: 232px;
-    padding-right: 25px;
+    padding-right: 50px;
     margin-top: 10px;
   }
 
